@@ -8,6 +8,7 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
+  "heroku-run-build-script": true,
   "author": "Valdir Silva",
   "license": "MIT",
   "dependencies": {
