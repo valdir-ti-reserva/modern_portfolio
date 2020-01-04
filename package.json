@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "My modern portfolio 2020",
   "main": "index.js",
-  "homepage": "https://valdir-ti.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Valdir Silva",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"
   }
 }
