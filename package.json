@@ -2,7 +2,7 @@
   "name": "modern_portfolio",
   "version": "1.0.0",
   "description": "My modern portfolio 2020",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
