@@ -1,1 +1,1 @@
-web: npm run sass
+web: node index.js
