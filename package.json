@@ -4,8 +4,8 @@
   "description": "My modern portfolio 2020",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Valdir Silva",
   "license": "MIT",

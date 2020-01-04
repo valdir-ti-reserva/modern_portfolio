@@ -1,4 +1,4 @@
-const PORT    = 3333;
+const port = process.env.PORT || 3333;
 const express = require('express');
 const app     = express();
 const path    = require('path');
@@ -25,6 +25,6 @@ app.use('/js', express.static(__dirname+'/dist/js'));
 app.use('/img', express.static(__dirname+'/dist/img'));
 
 app.use('/', router);
-app.listen(process.env.port || PORT);
+app.listen(port);
 
-console.log(`App running at port ${PORT}`);
+console.log(`App running at port ${port}`);
