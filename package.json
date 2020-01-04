@@ -4,11 +4,14 @@
   "description": "My modern portfolio 2020",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "dev": "nodemon index.js"
   },
   "author": "Valdir Silva",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "express": "^4.17.1",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
   }
 }
