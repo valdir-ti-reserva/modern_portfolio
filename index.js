@@ -20,6 +20,10 @@ router.get('/contact', function(req, res){
   res.sendFile(path.join(__dirname+'/dist/contact.html'));
 });
 
+router.get('/pdf', function(req, res){
+  res.download(path.join(__dirname+'/dist/curriculo.pdf'));  
+});
+
 app.use('/css', express.static(__dirname+'/dist/css'));
 app.use('/js', express.static(__dirname+'/dist/js'));
 app.use('/img', express.static(__dirname+'/dist/img'));
